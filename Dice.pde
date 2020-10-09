@@ -110,7 +110,7 @@ void draw() {
   text("Total: " + sum, 25, 735);
   timesRolled += 1;
   text("Times rolled: " + timesRolled, 210, 735);
-  text("Average: " + avg/timesRolled, 480, 735);
+  text("Average: " + round(avg/timesRolled), 480, 735);
 }
 
 void mousePressed() {
