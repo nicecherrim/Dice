@@ -23,7 +23,6 @@ class Dice {
     //roll the random dice num
     myRoll = (int)((Math.random()*6)+1);
     return myRoll;
-    //System.out.println(myRoll);
   }
   
   void show(int x, int y, int side, int roll) {
@@ -77,7 +76,6 @@ class Dice {
     //add dice's # to total to display at the end 
     sum += myRoll;
     avg += myRoll;
-    //System.out.println(avg);
   }
 }
 
